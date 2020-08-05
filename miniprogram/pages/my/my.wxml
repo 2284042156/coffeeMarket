@@ -1,0 +1,27 @@
+<view class="my">
+
+  <view class="my-bg">
+    <image class="auto-img" src="cloud://yunxiayu51.7975-yunxiayu51-1301706452/bg/bg11.jpg" mode="widthFix"></image>
+
+    <view class="my-box">
+      <view class="avatar fl"></view>
+      <view class="nickname fl">我要自学网</view>
+    </view>
+  </view>
+
+  <view class="my-list">
+    <view class="my-list-item">
+      <view class="fl text">我的收藏</view>
+      <view class="fr arrow">
+        <image class="auto-img" src="../../images/right-arrow.png" mode="widthFix"></image>
+      </view>
+    </view>
+     <view class="my-list-item">
+      <view class="fl text">个人资料</view>
+      <view class="fr arrow">
+        <image class="auto-img" src="../../images/right-arrow.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+
+</view>

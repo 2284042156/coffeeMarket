@@ -1,0 +1,60 @@
+<view class="like clearfix">
+
+  <view class="like-item like-item-left fl">
+    <view>
+      <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+    </view>
+    <view class="pro-name">摩卡</view>
+
+    <view class="clearfix">
+      <view class="fl price">￥28</view>
+      <view class="fr delete-icon">
+        <image class="auto-img" src="../../images/delete.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="like-item like-item-right fl">
+    <view>
+      <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+    </view>
+    <view class="pro-name">摩卡</view>
+
+    <view class="clearfix">
+      <view class="fl price">￥28</view>
+      <view class="fr delete-icon">
+        <image class="auto-img" src="../../images/delete.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+
+   <view class="like-item like-item-left fl">
+    <view>
+      <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+    </view>
+    <view class="pro-name">摩卡</view>
+
+    <view class="clearfix">
+      <view class="fl price">￥28</view>
+      <view class="fr delete-icon">
+        <image class="auto-img" src="../../images/delete.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="like-item like-item-right fl">
+    <view>
+      <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+    </view>
+    <view class="pro-name">摩卡</view>
+
+    <view class="clearfix">
+      <view class="fl price">￥28</view>
+      <view class="fr delete-icon">
+        <image class="auto-img" src="../../images/delete.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+
+
+</view>

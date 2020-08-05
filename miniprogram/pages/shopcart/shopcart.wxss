@@ -1,0 +1,152 @@
+.shopcart{
+  padding-bottom: 100rpx;
+}
+
+.shopcart-header{
+  height: 80rpx;
+  background-color: #fff;
+  padding: 0 20rpx;
+  position: sticky;
+  top: 0;
+}
+
+.manage{
+  font-size: 28rpx;
+  line-height: 80rpx;
+  color: #444;
+}
+
+.pro-items{
+  margin-top: 20rpx;
+}
+
+.pro-item{
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+}
+
+.checkbox{
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+  margin-top: 46rpx;
+  margin-right: 20rpx;
+}
+
+.pro-img{
+  width: 140rpx;
+}
+
+.pro-text-box{
+  margin-left: 20rpx;
+}
+
+.pro-name{
+  font-size: 28rpx;
+  color: #444;
+}
+
+.pro-rule{
+  font-size: 24rpx;
+  color: #6a6a6a;
+}
+
+.pro-text{
+  height: 70rpx;
+  margin-top: 35rpx;
+}
+
+.price-count{
+  height: 48rpx;
+  margin-top: 46rpx;
+}
+
+
+.price{
+  font-size: 28rpx;
+  color: #165dad;
+  line-height: 48rpx;
+  margin-right: 40rpx;
+}
+
+.icon{
+  width: 48rpx;
+  height: 48rpx;
+}
+
+.count{
+  text-align: center;
+  line-height: 48rpx;
+  font-size: 28rpx;
+  color: #165dad;
+  width: 80rpx;
+}
+
+.icon-img{
+  height: 48rpx;
+}
+
+.bottom-box{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 100rpx;
+  width: calc(100% - 20rpx);
+  background-color: #fff;
+  padding-left: 20rpx;
+}
+
+.all-check{
+  width: 48rpx;
+  height: 48rpx;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-top: 26rpx;
+}
+
+.all-text{
+  line-height: 100rpx;
+  margin-left: 20rpx;
+  color: #165ada;
+  font-size: 28rpx;
+}
+
+.text{
+  color: #165ada;
+  line-height: 100rpx;
+  font-size: 24rpx;
+}
+
+.text-price{
+  color: #165ada;
+  font-weight: bold;
+  font-size: 32rpx;
+  line-height: 100rpx;
+}
+
+.buy{
+  padding: 0 40rpx;
+  color: #fff;
+  background-color: #165DAD;
+  font-size: 28rpx;
+  line-height: 100rpx;
+  margin-left: 40rpx;
+}
+
+
+.delete{
+  width: 48rpx;
+  height: 48rpx;
+  display: none;
+}
+
+
+.all-delete{
+  padding: 0 40rpx;
+  line-height: 100rpx;
+  color: #fff;
+  background-color: #89AFD6;
+  font-size: 28rpx;
+  display: none;
+}

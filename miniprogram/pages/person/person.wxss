@@ -1,0 +1,33 @@
+.person{
+  background-color: #fff;
+}
+
+.person-item{
+  height: 80rpx;
+  font-size: 28rpx;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #e8e8e8;
+}
+
+.avatar{
+  line-height: 80rpx;
+  color: #6a6a6a;
+}
+
+.avatar-img{
+  width: 80rpx;
+  height: 80rpx;
+  background-color: #ddd;
+}
+
+.text{
+  line-height: 80rpx;
+  color: #444;
+  font-size: 28rpx;
+}
+
+.icon{
+  width: 28rpx;
+  height: 28rpx;
+  margin-top: 26rpx;
+}

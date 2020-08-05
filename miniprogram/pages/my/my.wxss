@@ -1,0 +1,54 @@
+.my-bg{
+  position: relative
+}
+
+.my-box{
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  height: 160rpx;
+  width: calc(100% - 80rpx);
+  padding: 0 40rpx;
+}
+
+.avatar{
+  width: 160rpx;
+  height: 100%;
+  background-color: #888;
+  border-radius: 50%;
+}
+
+.nickname{
+  line-height: 160rpx;
+  margin-left: 40rpx;
+  font-size: 32rpx;
+  color: #fff;
+}
+
+.my-list{
+  background-color: #fff;
+}
+
+.my-list-item{
+  height: 120rpx;
+  padding: 0 20rpx;
+  border-bottom: 1rpx solid #e8e8e8;
+}
+
+.my-list-item:last-child{
+  margin-bottom: 0;
+}
+
+.text{
+  line-height: 120rpx;
+  font-size: 28rpx;
+  color: #444;
+}
+
+.arrow{
+  width: 32rpx;
+  height: 32rpx;
+  margin-top: 44rpx;
+}

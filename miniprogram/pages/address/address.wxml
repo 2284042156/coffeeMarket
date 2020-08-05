@@ -1,0 +1,52 @@
+<view class="address">
+
+  <view class="address-items">
+
+    <view class="address-item">
+      <view class="person-info clearfix">
+        <view class="fl person-name">我要自学网我要自学网</view>
+        <view class="fl person-phone">13200000000</view>
+        <view class="fl clearfix">
+          <view class="tag default fl">默认</view>
+          <view class="tag fl">公司</view>
+        </view>
+      </view>
+      <view class="person-address clearfix">
+        <view class="fl detail-address">佛山市禅城区</view>
+        <view class="fr clearfix">
+          <view class="icon fl">
+            <image class="auto-img" src="../../images/edit.png" mode="widthFix"></image>
+          </view>
+          <view class="icon fl">
+            <image class="auto-img" src="../../images/delete.png" mode="widthFix"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+
+     <view class="address-item">
+      <view class="person-info clearfix">
+        <view class="fl person-name">我要自学网我要自学网</view>
+        <view class="fl person-phone">13200000000</view>
+        <view class="fl clearfix">
+          <view class="tag fl">公司</view>
+        </view>
+      </view>
+      <view class="person-address clearfix">
+        <view class="fl detail-address">佛山市禅城区</view>
+        <view class="fr clearfix">
+          <view class="icon fl">
+            <image class="auto-img" src="../../images/edit.png" mode="widthFix"></image>
+          </view>
+          <view class="icon fl">
+            <image class="auto-img" src="../../images/delete.png" mode="widthFix"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="new">新增地址</view>
+
+</view>

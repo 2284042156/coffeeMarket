@@ -1,0 +1,71 @@
+.order{
+  padding: 20rpx;
+}
+.order-item{
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+}
+.order-title{
+  color: #6a6a6a;
+  line-height: 40rpx;
+}
+.order-title-content{
+  border-bottom: 1rpx solid #e8e8e8;
+  padding-bottom: 20rpx;
+}
+.order-text{
+  font-size: 24rpx;
+}
+.order-code{
+  font-size:28rpx;
+}
+.order-time{
+  color:#6a6a6a;
+  font-size: 24rpx;
+  line-height: 60rpx;
+}
+.order-box{
+  line-height: 60rpx;
+}
+.order-count{
+  font-size: 28rpx;
+  color: #6a6a6a;
+}
+.order-price{
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #444;
+}
+.pro-img{
+  width: 120rpx;
+}
+.pro-name{
+  margin-left: 20rpx;
+}
+.ch-name{
+  height: 80rpx;
+  font-size: 28rpx;
+  color: #444;
+}
+.product-box{
+  margin-top: 20rpx;
+}
+.pro-rule{
+  height: 40rpx;
+  font-size: 24rpx;
+  color: #6a6a6a;
+  line-height: 40rpx;
+}
+.pro-price{
+  height: 80rpx;
+  font-size: 24rpx;
+  color: #6a6a6a;
+}
+.pro-count{
+  height: 40rpx;
+  color: #6a6a6a;
+  font-size: 20rpx;
+  text-align: right;
+}

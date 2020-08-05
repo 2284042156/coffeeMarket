@@ -1,0 +1,75 @@
+<view class="new">
+
+  <view class="new-box">
+  
+    <view class="new-item clearfix">
+      <view class="fl text">联系人</view>
+      <view class="fl ipt">
+         <input class="weui-input" placeholder="您的称呼"/>
+      </view>
+    </view>
+
+     <view class="new-item clearfix">
+      <view class="fl text">性别</view>
+      <view class="fl ipt">
+         <view class="fl clearfix radio-item">
+            <view class="fl radio">
+              <image class="auto-img" src="../../images/check.png" mode="widthFix"></image>
+            </view>
+            <view class="fl radio-text">男</view>
+         </view>
+         <view class="fl clearfix">
+            <view class="fl radio">
+               <image class="auto-img" src="../../images/check.png" mode="widthFix"></image>
+            </view>
+            <view class="fl radio-text">女</view>
+         </view>
+      </view>
+    </view>
+
+    <view class="new-item clearfix">
+      <view class="fl text">手机号</view>
+      <view class="fl ipt">
+         <input class="weui-input" placeholder="请输入您的手机号"/>
+      </view>
+    </view>
+
+     <view class="new-item clearfix">
+      <view class="fl text">地址</view>
+      <view class="fl ipt">
+         <picker class="picker-box" mode="region">
+            <view class="picker">请输入地址</view>
+          </picker>
+      </view>
+    </view>
+
+    <view class="new-item clearfix">
+      <view class="fl text">门牌号</view>
+      <view class="fl ipt">
+         <input class="weui-input" placeholder="如：5楼502房"/>
+      </view>
+    </view>
+
+    <view class="new-item clearfix">
+      <view class="fl text">标签</view>
+      <view class="fl ipt clearfix">
+         <view class="fl tag active">公司</view>
+         <view class="fl tag">家</view>
+         <view class="fl tag">学校</view>
+      </view>
+    </view>
+
+    <view class="new-item clearfix">
+      <view class="fl">
+        <view class="check-box">
+          <image class="auto-img" src="../../images/check.png" mode="widthFix"></image>
+        </view>
+      </view>
+      <view class="fl ipt default-text">设为默认地址</view>
+    </view>
+  
+  </view>
+
+  <view class="save">保存</view>
+
+</view>

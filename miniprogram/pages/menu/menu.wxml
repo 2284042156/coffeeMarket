@@ -1,0 +1,36 @@
+<view>
+	<!-- 轮播图 -->
+	<view class="menu">
+		<swiper class="swiper" indicator-dots="{{swiperOptions.indicatorDots}}" indicator-color="{{swiperOptions.indicatorColor}}" indicator-active-color="{{swiperOptions.indicatorActiveColor}}" autoplay="{{swiperOptions.autoplay}}" interval="{{swiperOptions.interval}}" circular="{{swiperOptions.circular}}">
+			<block>
+				<swiper-item wx:for="{{bannerData}}" wx:key="index">
+					<image class="auto-img swiper-img" src="{{item.imgUrl}}" mode="widthFix"></image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<!-- 商品展示区 -->
+	<view class="products">
+		<!-- 左侧商品导航栏 -->
+		<view class="fl aside">
+			<view data-key="{{item.key}}" data-value="{{item.value}}" data-index="{{index}}" data-active="{{item.isActive}}" bindtap="toggleAsideMenu" class="aside-item {{item.isActive?'active':''}}" wx:for="{{asideData}}" wx:key="index">{{item.title}}</view>
+		</view>
+		<!-- 商品 -->
+		<view class="fl pro-box">
+			<view class="pro-item clearfix" wx:for="{{productData}}" wx:key="index">
+				<!-- 商品图片 -->
+				<view class="pro-img fl">
+					<image src="{{item.small_img}}" class="auto-img" mode="widthFix"></image>
+				</view>
+				<!-- 商品文本 -->
+				<view class="pro-text fl">
+					<view class="pro-name">
+						<view class="ch-name">{{item.name}}</view>
+						<view class="en-name">{{item.enname}}</view>
+					</view>
+					<view class="pro-price">￥{{item.price}}</view>
+				</view>
+			</view>
+		</view>
+	</view>
+</view>

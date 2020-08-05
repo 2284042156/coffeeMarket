@@ -1,0 +1,27 @@
+<view class="person">
+
+  <view class="person-item">
+    <view class="fl avatar">头像</view>
+    <view class="fr avatar-img">
+
+    </view>
+  </view>
+
+  <view class="person-item">
+    <view class="fl avatar">用户名</view>
+    <view class="fr text">我要自学网</view>
+  </view>
+
+   <view class="person-item">
+    <view class="fl avatar">性别</view>
+    <view class="fr text">男</view>
+  </view>
+
+  <view class="person-item">
+    <view class="fl avatar">收货地址</view>
+    <view class="fr icon">
+      <image class="auto-img" src="../../images/right-arrow.png" mode="widthFix"></image>
+    </view>
+  </view>
+
+</view>

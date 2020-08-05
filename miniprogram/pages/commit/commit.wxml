@@ -1,0 +1,93 @@
+<view class="commit">
+
+  <view class="commit-box">
+    <view class="receive">选择收货地址</view>
+
+    <view class="pro-list">
+      <view class="product-item clearfix">
+        <view class="fl pro-img">
+          <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+        </view>
+        <view class="fl pro-name">
+          <view class="ch-name">摩卡</view>
+          <view class="pro-rule">默认奶油/无糖/冷</view>
+        </view>
+        <view class="fr">
+          <view class="pro-price">￥28</view>
+          <view class="pro-count">x3</view>
+        </view>
+      </view>
+      <view class="product-item clearfix">
+        <view class="fl pro-img">
+          <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+        </view>
+        <view class="fl pro-name">
+          <view class="ch-name">摩卡</view>
+          <view class="pro-rule">默认奶油/无糖/冷</view>
+        </view>
+        <view class="fr">
+          <view class="pro-price">￥28</view>
+          <view class="pro-count">x3</view>
+        </view>
+      </view>
+
+      <view class="clearfix">
+        <view class="fr">
+          <view class="fl count">共 3 件商品 合计：</view>
+          <view class="fl price">￥84</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+
+  <!-- 地址列表 -->
+  <view class="address-list">
+    <view class="list-box">
+
+      <view class="list">
+
+        <view class="address-item">
+          <view class="person-info clearfix">
+            <view class="fl person-name">我要自学网我要自学网</view>
+            <view class="fl person-phone">13200000000</view>
+            <view class="fl clearfix">
+              <view class="tag default fl">默认</view>
+              <view class="tag fl">公司</view>
+            </view>
+          </view>
+          <view class="person-address clearfix">
+            <view class="fl detail-address">佛山市禅城区</view>
+          </view>
+        </view>
+
+         <view class="address-item">
+          <view class="person-info clearfix">
+            <view class="fl person-name">我要自学网我要自学网</view>
+            <view class="fl person-phone">13200000000</view>
+            <view class="fl clearfix">
+              <view class="tag fl">公司</view>
+            </view>
+          </view>
+          <view class="person-address clearfix">
+            <view class="fl detail-address">佛山市禅城区</view>
+          </view>
+        </view>
+
+      </view>
+
+      <view class="new-btn">新增地址</view>
+
+    </view>
+  </view>
+
+  <view class="pay-box">
+    <view class="fl clearfix">
+      <view class="fl text1">应付合计：</view>
+      <view class="fl text2">￥48</view>
+    </view>
+    <view class="fr pay-btn">立即结算</view>
+  </view>
+
+</view>

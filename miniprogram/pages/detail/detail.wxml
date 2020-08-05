@@ -1,0 +1,62 @@
+<view class="detail">
+	<!-- 商品图片 -->
+	<view>
+		<image class="auto-img" src="../../images/IMG_0378_02.jpg" mode="widthFix"></image>
+	</view>
+	<view class="detail-box">
+		<!-- 商品名称 -->
+		<view class="clearfix pro">
+			<view class="fl pro-name">焦糖拿铁</view>
+			<view class="fr pro-like">
+				<image class="auto-img" src="../../images/like.png" mode="widthFix"></image>
+			</view>
+		</view>
+		<!-- 商品参数规格 -->
+		<view class="rule">
+			<view class="clearfix rule-item">
+				<view class="fl pro-title">温度</view>
+				<view class="fl clearfix">
+					<view class="fl pro-item active">冷</view>
+					<view class="fl pro-item">常温</view>
+					<view class="fl pro-item">热</view>
+				</view>
+			</view>
+			<view class="clearfix rule-item">
+				<view class="fl pro-title">加糖</view>
+				<view class="fl clearfix">
+					<view class="fl pro-item ">少糖</view>
+					<view class="fl pro-item active">一般</view>
+					<view class="fl pro-item">多糖</view>
+				</view>
+			</view>
+		</view>
+		<!-- 商品描述 -->
+		<view class="desc">
+			<view class="desc-title">商品描述</view>
+			<view class="desc-content">
+				<view class="desc-text">拿铁（Latte）在意大利语里是“牛奶”的意思，如果你点一杯“拿铁”，那么服务生只会给你上一杯牛奶。拿铁咖啡是意大利浓缩咖啡(Espresso)与牛奶的经典混合，意大利人也很喜欢把拿铁作为早餐的饮料</view>
+				<!-- <view class="desc-text"></view> -->
+			</view>
+		</view>
+		<!-- 商品价格与数量 -->
+		<view class="price-count clearfix">
+			<view class="price fl">￥28</view>
+			<view class="count fr clearfix">
+				<view class="fl icon">
+					<image mode="widthFix" class="reduce icon" src="../../images/reduce.png"></image>
+				</view>
+				<view class="fl pro-count">1</view>
+				<view class="fl ">
+					<image mode="widthFix" class="add icon" src="../../images/add.png"></image>
+				</view>
+			</view>
+		</view>
+		<!-- 加入购物车与提交商品 -->
+		<view class="btns">
+			<view class="fr clearfix">
+				<view class="fl btn joincart">加入购物车</view>
+				<view class="fl btn buy">立即购买</view>
+			</view>
+		</view>
+	</view>
+</view>

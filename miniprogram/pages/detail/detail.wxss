@@ -1,0 +1,103 @@
+.detail{
+  background-color: #e5e5e5;
+  padding-bottom: 160rpx;
+}
+.detail-box{
+  padding: 0 20rpx;
+  background-color: #fff;
+}
+.pro{
+  padding: 20rpx 0;
+}
+.pro-name{
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 32rpx;
+  color: #165dad;
+}
+.pro-like{
+  width: 60rpx;
+  height: 60rpx;
+}
+.pro-title{
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+}
+.pro-item{
+  width: 140rpx;
+  height:60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  background-color: #e5e5e5;
+  font-size: 28rpx;
+  margin:0 10rpx;
+  border-radius: 30rpx;
+  color:#6a6a6a;
+}
+.pro-item.active{
+  background-color: #89AFD6;
+  color: #fff;
+}
+.rule-item{
+  padding: 20rpx 0;
+}
+.desc{
+  margin-top: 20rpx;
+  padding: 20rpx 0;
+  border-top: 1rpx solid #e8e8e8;
+  border-bottom: 1rpx solid #e8e8e8;
+}
+.desc-title{
+  font-size: 28rpx;
+  color: #444;
+  margin-bottom: 20rpx;
+}
+.desc-text{
+  font-size: 24rpx;
+  color: #6a6a6a;
+  margin-bottom: 10rpx;
+}
+.desc-text:last-child{
+  margin-bottom: 0rpx;
+}
+.price-count{
+  margin: 20rpx;
+}
+.price{
+  color: #165dad;
+  font-size: 28rpx;
+}
+.icon{
+  width: 40rpx;
+  height: 40rpx;
+}
+.pro-count{
+  margin: 0 20rpx;
+  width: 60rpx;
+  text-align: center;
+  font-size: 28rpx;
+  color: #165dad;
+  line-height: 40rpx;
+}
+.btns{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 120rpx;
+  background-color: #fff;
+}
+.btn{
+  color: #fff;
+  height: 100%;
+  padding: 0 20rpx;
+  line-height: 120rpx;
+  font-size: 32rpx;
+}
+.joincart{
+  background-color: #4083d6;
+}
+.buy{
+  background-color: #165dad;
+}

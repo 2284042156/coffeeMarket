@@ -1,0 +1,70 @@
+<view class="shopcart">
+
+  <!-- 头部 -->
+  <view class="shopcart-header">
+    <view class="manage fr">管理</view>
+  </view>
+
+  <!-- 商品列表 -->
+  <view class="pro-items">
+
+     <view class="pro-item clearfix">
+      <view class="fl checkbox">
+        <image class="auto-img icon-img" src="../../images/check.png" mode="widthFix"></image>
+      </view>
+      <view class="fl pro-img">
+        <image class="auto-img icon-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+      </view>
+      <view class="fl pro-text-box">
+        <view class="pro-text">
+          <view class="pro-name">黑糖拿铁</view>
+          <view class="pro-rule">默认奶油/全糖</view>
+        </view>
+      </view>
+
+      <view class="fr price-count">
+          <view class="p-c">
+            <view class="price fl">￥28</view>
+            <view class="count-box fl clearfix">
+              <view class="fl icon">
+                <image class="auto-img icon-img" src="../../images/reduce.png" mode="widthFix"></image>
+              </view>
+              <view class="fl count">2</view>
+              <view class="fl icon">
+                <image class="auto-img icon-img" src="../../images/add.png" mode="widthFix"></image>
+              </view>
+            </view>
+          </view>
+
+          <view class="delete">
+            <image class="auto-img icon-img" src="../../images/delete.png" mode="widthFix"></image>
+          </view>
+
+      </view>
+
+    </view>
+
+  </view>
+
+  <!-- 去结算 -->
+  <view class="bottom-box">
+    <view class="fl">
+      <view class="all-check fl">
+        <image class="auto-img icon-img" src="../../images/check.png" mode="widthFix"></image>
+      </view>
+      <view class="fl all-text">全选</view>
+    </view>
+
+    <view class="fr buy-box">
+      <view class="fl">
+        <view class="fl text">应付合计：</view>
+        <view class="fl text-price">￥112</view>
+      </view>
+      <view class="fl buy">去结算</view>
+    </view>
+
+    <!-- 全部删除 -->
+    <view class="fr all-delete">全部删除</view>
+  </view>
+
+</view>

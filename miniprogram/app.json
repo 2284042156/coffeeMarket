@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/menu/menu",
+    "pages/commit/commit",
+    "pages/new/new",
+    "pages/person/person",
+    "pages/like/like",
+    "pages/my/my",
+    "pages/shopcart/shopcart",
+    "pages/order/order",
+    "pages/detail/detail",
+    "pages/address/address"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#165dad",
+    "navigationBarTitleText": "咖啡商城",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#a0a0a0",
+    "selectedColor": "#165dad",
+    "list": [
+      {
+        "iconPath": "./images/menu.png",
+        "selectedIconPath": "./images/menu1.png",
+        "pagePath": "pages/menu/menu",
+        "text": "目录"
+      },
+      {
+        "iconPath": "./images/order.png",
+        "selectedIconPath": "./images/order1.png",
+        "pagePath": "pages/order/order",
+        "text": "订单"
+      },
+      {
+        "iconPath": "./images/shopcart.png",
+        "selectedIconPath": "./images/shopcart1.png",
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车"
+      },
+      {
+        "iconPath": "./images/my.png",
+        "selectedIconPath": "./images/my1.png",
+        "pagePath": "pages/my/my",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,81 @@
+<view class="order">
+	<view class="order-item">
+  <!-- 订单标题单号 -->
+		<view class="order-title">
+			<view class="order-title-content clearfix">
+				<view class="fl order-code">NO0000000001</view>
+				<view class="fr order-text">已完成</view>
+			</view>
+		</view>
+    <!-- 商品规格 -->
+    <view class="product-box">
+      <view class="product-box clearfix"> 
+        <view class="fl pro-img">
+            <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+        </view>
+        <view class="fl pro-name">
+          <view class="ch-name">摩卡</view>
+          <view class="pro-rule">默认/奶油/无糖/冷</view>
+        </view>
+        <view class="fr">
+          <view class="pro-price">￥28</view>
+          <view class="pro-count">X2</view>
+        </view>
+      </view>
+    </view>
+    <view class="product-box">
+      <view class="product-box clearfix"> 
+        <view class="fl pro-img">
+            <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+        </view>
+        <view class="fl pro-name">
+          <view class="ch-name">摩卡</view>
+          <view class="pro-rule">默认/奶油/无糖/冷</view>
+        </view>
+        <view class="fr">
+          <view class="pro-price">￥28</view>
+          <view class="pro-count">X2</view>
+        </view>
+      </view>
+    </view>
+    <!-- 完成时间 -->
+    <view class="clearfix">
+      <view class="fl order-time">2020-08-01 14:04:20</view>
+      <view class="fr order-box clearfix">
+        <view class="fl order-count">共2件商品 合计：</view>
+        <view class="fl order-price">￥56</view>
+      </view>
+    </view>
+	</view>
+<!-- 第二个订单 -->
+  	<view class="order-item">
+		<view class="order-title">
+			<view class="order-title-content clearfix">
+				<view class="fl order-code">NO0000000001</view>
+				<view class="fr order-text">已完成</view>
+			</view>
+		</view>
+    <view class="product-box">
+      <view class="product-box clearfix"> 
+        <view class="fl pro-img">
+            <image class="auto-img" src="../../images/IMG_0382_02p.jpg" mode="widthFix"></image>
+        </view>
+        <view class="fl pro-name">
+          <view class="ch-name">摩卡</view>
+          <view class="pro-rule">默认/奶油/无糖/冷</view>
+        </view>
+        <view class="fr">
+          <view class="pro-price">￥28</view>
+          <view class="pro-count">X2</view>
+        </view>
+      </view>
+    </view>
+    <view class="clearfix">
+      <view class="fl order-time">2020-08-01 14:04:20</view>
+      <view class="fr order-box clearfix">
+        <view class="fl order-count">共2件商品 合计：</view>
+        <view class="fl order-price">￥56</view>
+      </view>
+    </view>
+	</view>
+</view>
