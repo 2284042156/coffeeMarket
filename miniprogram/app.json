@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/menu/menu",
+    "pages/auth/auth",
+    "pages/order/order",
+    "pages/shopcart/shopcart",
+    "pages/commit/commit",
+    "pages/address/address",
+    "pages/new/new",
+    "pages/like/like",
+    "pages/detail/detail",
+    "pages/person/person",
+    "pages/my/my"
+    
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#165DAD",
+    "navigationBarTitleText": "咖啡商城",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a0a0a0",
+    "selectedColor": "#165DAD",
+    "list": [
+      {
+        "pagePath": "pages/menu/menu",
+        "text": "菜单",
+        "iconPath": "./images/icons/menu.png",
+        "selectedIconPath": "./images/icons/menu_active.png"
+      },
+      {
+        "pagePath": "pages/order/order",
+        "text": "订单",
+        "iconPath": "./images/icons/order.png",
+        "selectedIconPath": "./images/icons/order_active.png"
+      },
+      {
+        "pagePath": "pages/shopcart/shopcart",
+        "text": "购物车",
+        "iconPath": "./images/icons/shopcart.png",
+        "selectedIconPath": "./images/icons/shopcart_active.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "./images/icons/my.png",
+        "selectedIconPath": "./images/icons/my_active.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

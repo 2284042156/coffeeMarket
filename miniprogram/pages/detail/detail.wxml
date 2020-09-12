@@ -1,0 +1,76 @@
+<view class="detail">
+
+  <!-- 商品大图 -->
+  <view class="wrap">
+    <video 
+      wx:if="{{detailData.type == 'PS_video'}}"
+      id="myVideo" 
+      poster="{{detailData.large_img}}"
+      src="{{detailData.video}}" 
+      danmu-list="{{danmuList}}" 
+      enable-danmu 
+      danmu-btn 
+      show-center-play-btn='{{false}}' 
+      show-play-btn="{{true}}" 
+      controls="true"
+      picture-in-picture-mode="{{['push', 'pop']}}"
+    ></video>
+    <image wx:else class="auto-img" src="{{detailData.large_img}}" mode="widthFix"></image>
+  
+  </view>
+
+  <view class="detail-box">
+
+    <!-- 商品名称 -->
+    <view class="pro clearfix">
+      <view class="fl pro-name">{{detailData.name}}</view>
+      <view class="fr pro-like" data-id="{{detailData._id}}" bindtap="likeProduct">
+        <image class="auto-img" src="../../images/{{isLike ? 'like_active' : 'like'}}.png" mode="widthFix"></image>
+      </view>
+    </view>
+
+    <!-- 规格标签 -->
+    <view class="rule">
+
+      <view class="rule-item clearfix" wx:for="{{ruleType}}" wx:key="index">
+        <view class="fl rule-title">{{ruleData[item].key}}</view>
+        <view class="fl rule-tag clearfix">
+          <view class="fl rule-tag-item {{value.isSelect ? 'active' : ''}}" wx:for="{{ruleData[item].value}}" wx:for-item="value" wx:for-index="i" wx:key="i" data-isselect="{{value.isSelect}}" data-i="{{i}}" data-type="{{item}}" bindtap="toggleRule">{{value.v}}</view>
+        </view>
+      </view>
+    
+    </view>
+
+    <!-- 商品描述 -->
+    <view class="desc">
+      <view class="desc-title">商品描述</view>
+      <view>
+        <view class="desc-text" wx:for="{{detailData.desc}}" wx:key="index">{{item}}</view>
+      </view>
+    </view>
+
+    <!-- 商品价格数量 -->
+    <view class="price-count clearfix">
+      <view class="fl price">￥{{detailData.price}}</view>
+      <view class="fr clearfix">
+        <view class="icon fl" bindtap="decrease">
+          <image class="auto-img" src="../../images/reduce.png" mode="widthFix"></image>
+        </view>
+        <view class="fl count">{{count}}</view>
+        <view class="icon fl" bindtap="increase">
+          <image class="auto-img" src="../../images/add.png" mode="widthFix"></image>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <!-- 底部按钮区 -->
+  <view class="btns">
+    <view class="fr clearfix">
+      <view class="fl btn shopcart" bindtap="addShopcart">加入购物车</view>
+      <view class="fl btn buy" bindtap="buy" data-key="1">立即购买</view>
+    </view>
+  </view>
+
+</view>

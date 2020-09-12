@@ -1,0 +1,19 @@
+<view class="like clearfix">
+
+  <view class="like-item {{index % 2 == 0 ? 'like-item-left' : 'like-item-right'}} fl" wx:for="{{likeProductData}}" wx:key="index">
+    <view>
+      <image class="auto-img" src="{{item.small_img}}" mode="widthFix"></image>
+    </view>
+    <view class="pro-name">{{item.name}}</view>
+
+    <view class="clearfix">
+      <view class="fl price">￥{{item.price}}</view>
+      <view class="fr delete-icon" data-id="{{item._id}}" data-index="{{index}}" bindtap="removeLikeProduct">
+        <image class="auto-img" src="../../images/delete.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+
+
+
+</view>

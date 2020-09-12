@@ -1,0 +1,69 @@
+<view class="commit">
+
+  <view class="commit-box">
+    <view class="receive" bindtap="toggleAddressList">{{address}}</view>
+
+    <view class="pro-list">
+      <view class="product-item clearfix" wx:for="{{shopcartData}}" wx:key="index">
+        <view class="fl pro-img">
+          <image class="auto-img" src="{{item.img}}" mode="widthFix"></image>
+        </view>
+        <view class="fl pro-name">
+          <view class="ch-name">{{item.name}}</view>
+          <view class="pro-rule">{{item.rule}}</view>
+        </view>
+        <view class="fr">
+          <view class="pro-price">￥{{item.price}}</view>
+          <view class="pro-count">x{{item.count}}</view>
+        </view>
+      </view>
+
+
+      <view class="clearfix">
+        <view class="fr">
+          <view class="fl count">共 {{count}} 件商品 合计：</view>
+          <view class="fl price">￥{{total}}</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+
+  <!-- 地址列表 -->
+  <view class="address-list" hidden="{{!isShow}}" bindtap="toggleAddressList">
+    <view class="list-box">
+
+      <view class="list">
+
+        <view class="address-item" wx:for="{{addressData}}" wx:key="index" data-index="{{index}}" bindtap="selectAddress">
+          <view class="person-info clearfix">
+            <view class="fl person-name">{{item.user}}</view>
+            <view class="fl person-phone">{{item.phone}}</view>
+            <view class="fl clearfix">
+              <view class="tag default fl" wx:if="{{item.default == 1}}">默认</view>
+              <view class="tag fl">{{item.tag}}</view>
+            </view>
+          </view>
+          <view class="person-address clearfix">
+            <view class="fl detail-address">{{item.address}}{{item.detail}}</view>
+          </view>
+        </view>
+
+
+      </view>
+
+      <view class="new-btn" bindtap="newAddress">新增地址</view>
+
+    </view>
+  </view>
+
+  <view class="pay-box">
+    <view class="fl clearfix">
+      <view class="fl text1">应付合计：</view>
+      <view class="fl text2">￥{{total}}</view>
+    </view>
+    <view class="fr pay-btn" bindtap="commit">立即结算</view>
+  </view>
+
+</view>

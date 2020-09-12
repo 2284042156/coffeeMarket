@@ -1,0 +1,32 @@
+<view class="address">
+
+  <view class="address-items">
+    
+    <!-- 收货地址 -->
+    <view class="address-item" wx:for="{{addressData}}" wx:key="index">
+      <view class="person-info clearfix">
+        <view class="fl person-name">{{item.user}}</view>
+        <view class="fl person-phone">{{item.phone}}</view>
+        <view class="fl clearfix">
+          <view class="tag default fl" wx:if="{{item.default == 1}}">默认</view>
+          <view class="tag fl">{{item.tag}}</view>
+        </view>
+      </view>
+      <view class="person-address clearfix">
+        <view class="fl detail-address">{{item.address}}{{item.detail}}</view>
+        <view class="fr clearfix">
+          <view class="icon fl" data-id="{{item._id}}" bindtap="updateAddress">
+            <image class="auto-img" src="../../images/edit.png" mode="widthFix"></image>
+          </view>
+          <view class="icon fl" data-id="{{item._id}}" data-index="{{index}}" bindtap="removeAddress">
+            <image class="auto-img" src="../../images/delete.png" mode="widthFix"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="new" bindtap="newAddress">新增地址</view>
+
+</view>

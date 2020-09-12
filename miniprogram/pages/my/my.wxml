@@ -1,0 +1,29 @@
+<view class="my">
+
+  <view class="my-bg">
+    <image class="auto-img" src="cloud://liang-izrfw.6c69-liang-izrfw-1302755022/bg/bg.jpg" mode="widthFix"></image>
+
+    <view class="my-box">
+      <view class="avatar fl">
+        <image class="auto-img" wx:if="{{userInfo.url != ''}}" src="{{userInfo.url}}" mode="widthFix"></image>
+      </view>
+      <view class="nickname fl">{{userInfo.nickName}}</view>
+    </view>
+  </view>
+
+  <view class="my-list">
+    <view class="my-list-item" bindtap="like">
+      <view class="fl text">我的收藏</view>
+      <view class="fr arrow">
+        <image class="auto-img" src="../../images/right-arrow.png" mode="widthFix"></image>
+      </view>
+    </view>
+     <view class="my-list-item" bindtap="person">
+      <view class="fl text">个人资料</view>
+      <view class="fr arrow">
+        <image class="auto-img" src="../../images/right-arrow.png" mode="widthFix"></image>
+      </view>
+    </view>
+  </view>
+
+</view>
