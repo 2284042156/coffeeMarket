@@ -1,0 +1,182 @@
+{
+	"name": "黑糖拿铁",
+	"enname": "Brown Sugar Latte",
+	"price": 28.0,
+	"type": "latte",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0378_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0378_02.jpg",
+	"desc": "经典日式黑糖风味拿铁，黑糖与咖啡的美妙融合，香甜温暖、自然醇厚，口感绵长。（建议到店饮用，奶油融化前口感更佳）\n 主要原材料：浓缩咖啡、牛奶、黑糖调味糖浆、原味调味糖浆、可选择添加搅打奶油（含香草风味糖浆）\n 图片仅供参考，请以实物为准，建议取餐后尽快饮用。",
+	"type_desc": "拿铁",
+	"is_hot": 0
+}
+
+{
+	"name": "香草拿铁",
+	"enname": "Vanilla Latte",
+	"price": 28.0,
+	"type": "latte",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0379_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0379_02.jpg",
+	"desc": "拿铁中融入清新香草风味，沁人心脾。\n主要原材料：浓缩咖啡，牛奶，香草风味糖浆。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "拿铁",
+	"is_hot": 0
+}
+
+{
+	"name": "标准美式",
+	"enname": "Americano",
+	"price": 22.0,
+	"type": "coffee",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0380_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0380_02.jpg",
+	"desc": "Espresso（意式浓缩）与水的黄金配比，带来浓郁的咖啡芬芳，成为脑海中挥之不去的绝妙体验。\n主要原材料：浓缩咖啡，水。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "咖啡",
+	"is_hot": 0
+}
+
+{
+	"name": "焦糖玛奇朵",
+	"enname": "Caramel Macchiato",
+	"price": 28.0,
+	"type": "coffee",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0381_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0381_02.jpg",
+	"desc": "焦糖风味奶咖，上层注入丰富奶泡，层次感分明。（建议到店饮用）\n主要原材料：浓缩咖啡，牛奶，香草风味糖浆，焦糖调味酱。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "咖啡",
+	"is_hot": 0
+}
+
+{
+	"name": "摩卡",
+	"enname": "Mocha",
+	"price": 28.0,
+	"type": "coffee",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0382_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0382_02.jpg",
+	"desc": "浓缩咖啡与牛奶彼此融合，加入香浓巧克力风味。（建议到店饮用，奶油融化前口感更佳）\n主要原材料：浓缩咖啡，牛奶，巧克力酱，搅打奶油（含香草风味糖浆）。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "咖啡",
+	"is_hot": 0
+}
+
+{
+	"id": "latte003",
+	"name": "拿铁",
+	"enname": "Latte",
+	"price": 25.0,
+	"type": "latte",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0383_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0383_02.jpg",
+	"desc": "经典意式奶咖。浓缩咖啡与香醇牛奶融合，口感圆润。\n主要原材料：浓缩咖啡，牛奶。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "拿铁",
+	"is_hot": 0
+}
+
+{
+	"name": "焦糖拿铁",
+	"enname": "Caramel Latte",
+	"price": 28.0,
+	"type": "coffee",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0384_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0384_02.jpg",
+	"desc": "拿铁中融入醇香焦糖风味，香甜温暖，令人沉醉。\n主要原材料：浓缩咖啡，牛奶，焦糖风味糖浆。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "拿铁",
+	"is_hot": 1
+}
+
+{
+	"id": "latte005",
+	"name": "榛果拿铁",
+	"enname": "Hazelnut Latte",
+	"price": 28.0,
+	"type": "coffee",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0385_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0385_02.jpg",
+	"desc": "榛果爱好者的选择！香甜榛果风味与咖啡牛奶融合，诠释另一种新鲜风味。\n主要原材料：浓缩咖啡，牛奶，榛子风味糖浆。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "拿铁",
+	"is_hot": 1
+}
+
+{
+	"name": "卡布奇诺",
+	"enname": "Cappuccino",
+	"price": 25.0,
+	"type": "coffee",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0386_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0386_02.jpg",
+	"desc": "经典奶咖。奶泡与咖啡交融，绵密醇香，轻盈如雪。（建议到店饮用，奶泡消失前口感更佳）\n主要原材料：浓缩咖啡，牛奶。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "咖啡",
+	"is_hot": 0
+}
+
+{
+	"id": "rena_ice001",
+	"name": "巧克力瑞纳冰",
+	"enname": "Chocolate Exfreezo",
+	"price": 28.0,
+	"type": "rena_ice",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0387_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0387_02.jpg",
+	"desc": "醇香巧克力风味搭配牛奶，口感香甜酷爽。（到店饮用口感更佳）\n主要原料：巧克力酱，牛奶，冰沙粉，冰块，搅打奶油（含香草风味糖浆）。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "瑞纳冰",
+	"is_hot": 0
+}
+
+{
+	"name": "抹茶瑞纳冰",
+	"enname": "Matcha Exfreezo",
+	"price": 28.0,
+	"type": "rena_ice",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0388_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0388_02.jpg",
+	"desc": "经典抹茶搭配香滑奶油，入口伴有浓郁的抹茶清香。（到店饮用口感更佳）\n主要原料：抹茶风味固体饮料，冰沙粉，牛奶，冰块，搅打稀奶油。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "瑞纳冰",
+	"is_hot": 1
+}
+
+{
+	"name": "卡布奇诺瑞纳冰",
+	"enname": "Coppuccino Exfreezo",
+	"price": 28.0,
+	"type": "rena_ice",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0389_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0389_02.jpg",
+	"desc": "卡布奇诺咖啡风味融入牛奶与细腻沙冰，香甜纯滑。（到店饮用口感更佳）\n主要原料：卡布奇诺咖啡风味冰沙粉，牛奶，冰沙粉，冰块，搅打奶油（含香草风味糖浆）。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "瑞纳冰",
+	"is_hot": 0
+}
+
+{
+	"name": "奥瑞白",
+	"enname": "Flat White",
+	"price": 28.0,
+	"type": "coffee",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0390_02p.jpg",
+	"large_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0390_02.jpg",
+	"desc": "咖啡与牛奶黄金配比，奶香四溢，口感香醇。\n主要原材料：浓缩咖啡，牛奶。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "咖啡",
+	"is_hot": 1
+}
+
+{
+	"name": "焦糖标准美式",
+	"enname": "Caramel Americano",
+	"price": 25.0,
+	"type": "coffee",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0391_02p.jpg",
+	"large_img": " cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0391_02.jpg",
+	"desc": "焦糖风味糖浆的融入，提升了美式的原始风味，入口清甜，香气四溢。\n主要原材料：浓缩咖啡，水，焦糖风味糖浆。\n图片仅供参考，请以实物为准。建议送达后尽快饮用。",
+	"type_desc": "咖啡",
+	"is_hot": 0
+}
+
+{
+	"name": "黑糖啵啵拿铁",
+	"enname": "Brown Sugar Bubble Latte",
+	"price": 28.0,
+	"type": "latte",
+	"small_img": "cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product/IMG_0392_02p.jpg",
+	"large_img": " cloud://liang-izrfw.6c69-liang-izrfw-1302755022/product_detail/IMG_0392_02.jpg",
+	"desc": "独特的黑糖风味拿铁，佐以Q嫩儒糯的黑糖口味珍珠，创造出层次丰富的美妙口感。（建议搅拌后饮用）\n主要原材料：浓缩咖啡，黑糖味珍珠，纯牛奶，黑糖味调味糖浆，原味调味糖浆，可选择添加搅打奶油（含香草风味糖浆）\n图片仅供参考，请以实物为准，建议取餐后尽快饮用。",
+	"type_desc": "拿铁",
+	"is_hot": 1
+}
